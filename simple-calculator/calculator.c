@@ -6,16 +6,15 @@ int main (void)
 	int B = 0;
 	int result = 0;
 
-		printf ('Simple Calculator\n')
-		while (choice != 0)
+	printf ('Simple Calculator\n')
+	while (choice != 0)
 		{
 			printf ('1) Add\n2) Subtract\n3) Multiply\n4) Divide\n0) Quit');
 			printf ('choice ?'\n);
 			scanf ('%d',&choice);
 			if (choice == 0)
 			{
-					printf ('Bye!');
-
+				printf ('Bye!')
 			}
 
 		}
