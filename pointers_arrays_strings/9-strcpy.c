@@ -2,18 +2,21 @@
 #include <stdio.h>
 
 /**
- * _strcpy - copies a string from source to destination
- * @dest: pointer to the destination buffer
- * @src: pointer to the source string
+ * main - check the code
  *
- * Return: pointer to the destination buffer
+ * Return: Always 0.
  */
-char *_strcpy(char *dest, char *src)
+int main(void)
 {
-	int i;
+    char s1[98] = "Hello ";
+    char s2[] = "World!\n";
+    char *ptr;
 
-	for (i = 0; src[i] != '\0'; i++)
-		dest[i] = src[i];
-	dest[i] = '\0';
-	return (dest);
+    printf("%s\n", s1);
+    printf("%s", s2);
+    ptr = _strcat(s1, s2);
+    printf("%s", s1);
+    printf("%s", s2);
+    printf("%s", ptr);
+    return (0);
 }
