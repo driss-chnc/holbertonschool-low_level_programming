@@ -1,5 +1,6 @@
 {
     "configurations": [
+        
         {
             "name": "C/C++: gcc Générer et déboguer le fichier actif",
             "type": "cppdbg",
