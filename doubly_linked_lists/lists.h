@@ -25,6 +25,10 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
 void free_dlistint(dlistint_t *head);
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index);
 int sum_dlistint(dlistint_t *head);
+<<<<<<< HEAD
 insert_dnodeint_at_index(&head, 5, 4096);
+=======
+dlistint_t *insert_dnodeint_at_index(dlistint_t **head, unsigned int idx, int n);
+>>>>>>> 5315c127956ddb23aae57bcf427264da07253c91
 
 #endif
