@@ -35,13 +35,6 @@ int store_add(store_t *st, session_t *s)
 		cur = cur->next;
 	}
 
-	if (cur->sess && cur->sess->id &&
-    strcmp(cur->sess->id, s->id) == 0)
-		{
-    printf("Duplicate: %s\n", s->id);
-    return 0;
-		}
-
 	n = node_create(s);
 	if (!n)
 		return 0;
