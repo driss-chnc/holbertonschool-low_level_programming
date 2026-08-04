@@ -1,4 +1,14 @@
 ADD test 1 hello
+ADD test 2 world
+ADD test2 3 abc
+SET test bonjour
+SET test salut
 GET test
 DEL test
+DEL test
+GET test
+CLEAR
+ADD a 1 x
+ADD b 2 y
+CLEAR
 EXIT
