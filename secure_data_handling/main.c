@@ -50,6 +50,7 @@ static void cmd_add(store_t *st, char *id, char *uid_s, char *data_s)
 	}
 
 	if (!store_add(st, s)) {
+		session_destroy(s);
 		puts("NO");
 		return;
 	}
