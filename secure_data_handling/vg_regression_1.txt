@@ -1,0 +1,4 @@
+ADD test 1 hello
+GET test
+DEL test
+EXIT
